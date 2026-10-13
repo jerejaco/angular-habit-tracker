@@ -1,27 +1,62 @@
 # AngularHabitTracker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+## Overview
 
-## Development server
+Develop a Personal Habit Tracker, a web application that helps users establish and maintain positive habits.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Eventually, users will be able to create and manage habits, record their daily progress, review their activity history, and examine completion statistics.
 
-## Code scaffolding
+## Learning objectives
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Angular components, templates, data binding, services, persistence, and eventually Jasmine testing.
 
-## Build
+## Project scope
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The application must:
 
-## Running unit tests
+1. Display an application heading identifying it as a Personal Habit Tracker.
+2. Contain at least five predefined habits. You may choose the habits yourself.
+3. Display each habit's name.
+4. Display whether each habit has been completed today.
+5. Include at least two completed and two incomplete habits in the initial collection.
+6. Present habits in a visually organized, easily readable interface.
+7. Render the habits from application data rather than individually hard-coding each habit into the template.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technology stack and constraints
 
-## Running end-to-end tests
+* Angular 16
+* TypeScript
+* CSS
+* Jasmine
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Habit information may be stored in memory. No backend or database is required.
+* Use Angular's template capabilities to render the habit collection.
+* Completion status must be understandable without relying exclusively on color.
+* The application must compile and run without errors.
 
-## Further help
+## Acceptance criteria
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The assignment will be considered functionally complete when:
+
+[ ] The application starts successfully.
+[ ] Its heading is visible.
+[ ] All five or more predefined habits appear.
+[ ] Every displayed habit has the correct name and completion status.
+[ ] Completed and incomplete habits are visually distinguishable.
+[ ] Adding another habit to the underlying collection causes it to appear without requiring additional habit-specific markup.
+[ ] The browser console contains no application errors.
+
+## Out of scope
+
+Do not implement these features yet:
+
+* Marking habits complete or incomplete through user interaction
+* Adding, editing, or deleting habits through the interface
+* Tracking multiple days
+* Progress statistics
+* Data persistence
+* Automated tests
+
+## Current status
+
+Initial setup complete; development beginning.
