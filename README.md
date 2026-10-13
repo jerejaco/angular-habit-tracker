@@ -22,40 +22,12 @@ The application must:
 6. Present habits in a visually organized, easily readable interface.
 7. Render the habits from application data rather than individually hard-coding each habit into the template.
 
-## Technology stack and constraints
+## Technology stack
 
 * Angular 16
 * TypeScript
 * CSS
 * Jasmine
-
-* Habit information may be stored in memory. No backend or database is required.
-* Use Angular's template capabilities to render the habit collection.
-* Completion status must be understandable without relying exclusively on color.
-* The application must compile and run without errors.
-
-## Acceptance criteria
-
-The assignment will be considered functionally complete when:
-
-[ ] The application starts successfully.
-[ ] Its heading is visible.
-[ ] All five or more predefined habits appear.
-[ ] Every displayed habit has the correct name and completion status.
-[ ] Completed and incomplete habits are visually distinguishable.
-[ ] Adding another habit to the underlying collection causes it to appear without requiring additional habit-specific markup.
-[ ] The browser console contains no application errors.
-
-## Out of scope
-
-Do not implement these features yet:
-
-* Marking habits complete or incomplete through user interaction
-* Adding, editing, or deleting habits through the interface
-* Tracking multiple days
-* Progress statistics
-* Data persistence
-* Automated tests
 
 ## Current status
 
